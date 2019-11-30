@@ -70,7 +70,6 @@ return [
         'db' => $db,
         'urlManager' => [
             'enablePrettyUrl' => true,
-            'showScriptName' => false,//隐藏index.php
             'rules' => [
                 '/' => '/explore/index',
                 '<id:[\x{4e00}-\x{9fa5}a-zA-Z0-9_]*>' => 'user/view',
