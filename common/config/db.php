@@ -4,7 +4,7 @@
 // This file is needed to establish a connection to MySQL
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=iisns',
+    'dsn' => 'mysql:host=localhost;dbname=bosiisns',
     'username' => 'root',
     'password' => '',
     #'tablePrefix' => 'pre_',
